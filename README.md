@@ -46,3 +46,4 @@ docker start $CONTAINER
 
 # Bugs / Features
 * Make sure the volumes are defined as such with the `VOLUME` directive. For example, the Apache image lacks them, but you can add them manually with `docker commit --change 'VOLUME /usr/local/apache2/htdocs' $CONTAINER $CONTAINER`
+
